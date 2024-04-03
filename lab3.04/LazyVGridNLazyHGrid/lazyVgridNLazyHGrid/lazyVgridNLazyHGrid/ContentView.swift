@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     private var columns: [GridItem] = [
-        GridItem(.fixed(100), spacing: 16),
-        GridItem(.fixed(100), spacing: 16),
+        GridItem(.fixed(50), spacing: 16, alignment: .leading),
+        GridItem(.fixed(75)),
               GridItem(.fixed(100), spacing: 16)
           ]
           
